@@ -18,8 +18,11 @@ RUN apt-get update && apt-get -y upgrade \
     texlive-latex-base \
     texlive-extra-utils \
     texlive-latex-extra \
+    texlive-science \
+    texlive-bibtex-extra \
     biber chktex latexmk make python3-pygments python3-pkg-resources \
-    texlive-lang-english
+    texlive-lang-english \
+    texlive-lang-german
 
 # latexindent modules
 RUN apt-get install --no-install-recommends -y curl
