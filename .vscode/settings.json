@@ -30,11 +30,11 @@
     ],
     // Edit the following property to change export directory
     "latex-workshop.latex.outDir": "./PDF",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
+    // "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.latex.build.forceRecipeUsage": false,
     "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.latex.clean.subfolder.enabled": true,
-    "latex-workshop.latex.clean.method": "glob",
+    // "latex-workshop.latex.clean.subfolder.enabled": true,
+    // "latex-workshop.latex.clean.method": "glob",
     // "latex-workshop.latex.magic.args": [
     //     "-output-directory=PDF", // to change the output directory
     //     "%DOC%"
