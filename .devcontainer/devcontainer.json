@@ -1,6 +1,6 @@
 {
     "name": "TeX Live base",
-    "dockerFile": "Dockerfile",
+    "image": "texlive/texlive:latest-full",
     "customizations": {
         "vscode": {
             "extensions": [
